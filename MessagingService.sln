@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService", "src\MessagingService\MessagingService.csproj", "{2A1F202C-682C-49F8-8DC1-09DB04069CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Data", "src\MessagingService.Data\MessagingService.Data.csproj", "{AED7669E-12D2-4CE5-991D-F75B1963351C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Web", "src\MessagingService.Web\MessagingService.Web.csproj", "{8FB151FB-3F80-4DDB-BA99-A7344BBE73A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A1F202C-682C-49F8-8DC1-09DB04069CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1F202C-682C-49F8-8DC1-09DB04069CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1F202C-682C-49F8-8DC1-09DB04069CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1F202C-682C-49F8-8DC1-09DB04069CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED7669E-12D2-4CE5-991D-F75B1963351C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED7669E-12D2-4CE5-991D-F75B1963351C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED7669E-12D2-4CE5-991D-F75B1963351C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED7669E-12D2-4CE5-991D-F75B1963351C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB151FB-3F80-4DDB-BA99-A7344BBE73A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB151FB-3F80-4DDB-BA99-A7344BBE73A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB151FB-3F80-4DDB-BA99-A7344BBE73A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB151FB-3F80-4DDB-BA99-A7344BBE73A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

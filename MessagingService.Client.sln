@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Client", "src\MessagingService.Client\MessagingService.Client.csproj", "{35760123-1587-4D5A-B0EB-B921F39976DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35760123-1587-4D5A-B0EB-B921F39976DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35760123-1587-4D5A-B0EB-B921F39976DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35760123-1587-4D5A-B0EB-B921F39976DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35760123-1587-4D5A-B0EB-B921F39976DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option csharp_namespace = "MessagingService.Web";
+
+package v1;
+
+service Messaging {
+  rpc GetMessagesStreamed(EmptyRequest) returns (stream MessageResponse);
+  rpc GetMessages(MessagesRequest) returns (MessagesResponse);
+  rpc SendMessage (MessageRequest) returns (MessageResponse);
+  rpc GetAddedUsersStreamed(EmptyRequest) returns (stream UserResponse);
+  rpc GetRemovedUsersStreamed(EmptyRequest) returns (stream UserResponse);
+  rpc GetUsers(EmptyRequest) returns (UsersResponse);
+}
+
+message EmptyRequest {
+}
+
+message MessagesRequest {
+  int32 limit = 1;
+}
+
+message MessageRequest {
+  string userName = 1;
+  string content = 2;
+}
+
+message MessageResponse {
+  string id = 1;
+  string userName = 2;
+  string content = 3;
+}
+
+message MessagesResponse {
+  repeated MessageResponse Messages = 1;
+}
+
+message UserResponse {
+  string userName = 1;
+}
+
+message UsersResponse {
+  repeated UserResponse Users = 1;
+}
